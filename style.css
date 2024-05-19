@@ -21,6 +21,9 @@ body {
   gap: 1rem;
   padding: 2.4rem 0 4rem;
 }
+.header-box {
+  display: flex;
+}
 .header {
   text-align: center;
   font-size: 1.8rem;
@@ -67,24 +70,77 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   color: #303b59;
+  gap: 1.6rem;
+  padding: 2.4rem 0 3rem;
 }
 .title {
   font-weight: 500;
+  padding-left: 1.2rem;
 }
 .one {
   color: #ff5555;
+  padding-right: 12.4rem;
 }
 .totalCount {
   opacity: 0.5;
 }
+.score {
+  padding-right: 0.8rem;
+}
 .category {
   display: flex;
   border-radius: 1.2rem;
+  padding: 1.8rem 1.6rem;
+}
+.reaction {
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.95) 0%,
       rgba(255, 255, 255, 0.95) 100%
     ),
     #f55;
-  padding: 1.8rem 1.6rem;
+}
+.memory {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e;
+}
+.two {
+  color: #ffb21e;
+  padding-right: 12.7rem;
+}
+.verbal {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f;
+}
+.three {
+  padding-right: 13.9rem;
+}
+.visual {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6;
+}
+.four {
+  padding-right: 14.3rem;
+}
+button {
+  all: unset;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 12.8rem;
+  background-color: #303b59;
+  padding: 1.7rem 12rem;
+  cursor: pointer;
+  margin-top: 0.8rem;
 }
