@@ -15,7 +15,6 @@ body {
   font-weight: 700;
   border-radius: 0px 0px 32px 32px;
   background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
-  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,6 +63,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   color: #303b59;
+  background-color: #ffffff;
   gap: 1.6rem;
   padding: 2.4rem 0 3rem;
 }
@@ -147,12 +147,19 @@ button {
   border: none;
 }
 @media (min-width: 1440px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf2ff;
+  }
   .main-container {
+    background-color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    min-height: 100vh;
+    border-radius: 3.2rem;
   }
   .performance {
     text-align: center;
@@ -160,7 +167,7 @@ button {
   .blue-container {
     gap: 1.4rem;
     border-radius: 32px;
-    padding: 3.8rem 0 5.5rem;
+    padding: 3.9rem 5.4rem 5.5rem;
   }
   .header {
     font-size: 2.4rem;
@@ -181,10 +188,12 @@ button {
   }
   .performance {
     font-size: 1.8rem;
+    width: 25ch;
   }
   .white-container {
     font-size: 1.8rem;
-    padding: 3.8rem 0 4.6rem;
+    padding: 3.8rem 4rem 4.6rem;
+    border-radius: 0 3.2rem 3.2rem 0;
   }
   button {
     padding: 1.7rem 10.7rem;
